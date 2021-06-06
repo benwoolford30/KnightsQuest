@@ -1,0 +1,211 @@
+/// @description Initialise quests array variables
+// You can write your code in this editor
+var i=0;
+questscore[i]=13;
+questturns[i]=3;
+questrenown[i]=6;
+questdescription[i]="Capture the BanditKing, the most wanted criminal in the Kingdom";
+questfaildescription[i]="The Bandit King beats you- lose 1 heart and an item";
+questfailheart[i]=1;
+questfailrenown[i]=0;
+questfailitem[i]=1;
+questfaildie[i]=0;
+questdifficulty[i]=3;
+questsprite[i]=spr_banditking;
+
+i=1;
+questscore[i]=15;
+questturns[i]=3;
+questrenown[i]=7;
+questdescription[i]="You encounter a ferocious dragon, which has been terrorising the kingdom!";
+questfaildescription[i]="You are eaten by the dragon- you are dead! Return to the castle, lose everything";
+questfailheart[i]=0;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=1;
+questdifficulty[i]=3;
+questsprite[i]=spr_dragon;
+
+i=2;
+questscore[i]=14;
+questturns[i]=3;
+questrenown[i]=6;
+questdescription[i]="Rescue the Princess trapped inside the perilous tower";
+questfaildescription[i]="You fell from the tower-lose 2 hearts";
+questfailheart[i]=2;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=3;
+questsprite[i]=spr_printow;
+
+i=3;
+questscore[i]=11;
+questturns[i]=3;
+questrenown[i]=4;
+questdescription[i]="You discover the sorcerers lair- Defeat the sorcerer";
+questfaildescription[i]="The sorcerers magic is too powerful- lose 1 renown";
+questfailheart[i]=0;
+questfailrenown[i]=1;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_sorcerer;
+
+i=4;
+questscore[i]=8;
+questturns[i]=2;
+questrenown[i]=3;
+questdescription[i]="A young lady has been cornered by a pack of hungry wolves- rescue the damsel in distress";
+questfaildescription[i]="The wolves had you for dinner- lose 1 heart";
+questfailheart[i]=1;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_wolves;
+
+i=5;
+questscore[i]=12;
+questturns[i]=3;
+questrenown[i]=5;
+questdescription[i]="Bandits are raiding a settlement- stop the bandits!";
+questfaildescription[i]="The bandits overwhelm you- lose 1 heart and 1 item";
+questfailheart[i]=1;
+questfailrenown[i]=0;
+questfailitem[i]=1;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_bandit;
+
+i=6;
+questscore[i]=9;
+questturns[i]=2;
+questrenown[i]=4;
+questdescription[i]="You encounter a forest ogre- the wicked creature must be slain!";
+questfaildescription[i]="The ogre batters you and your pride- lose 1 heart and 1 renown";
+questfailheart[i]=1;
+questfailrenown[i]=1;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_ogreslay;
+
+i=7;
+questscore[i]=9;
+questturns[i]=2;
+questrenown[i]=4;
+questdescription[i]="You encounter a cave troll- the vile beast must be subdued";
+questfaildescription[i]="The troll overpowers you- lose 1 heart and 1 renown";
+questfailheart[i]=1;
+questfailrenown[i]=1;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_troll;
+
+i=8;
+questscore[i]=12;
+questturns[i]=3;
+questrenown[i]=5;
+questdescription[i]="Goblins are assaulting te village- protect the village!";
+questfaildescription[i]="Turns out your as tough as paper mache- lose 2 hearts";
+questfailheart[i]=2;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_goblinvill;
+
+i=9;
+questscore[i]=8;
+questturns[i]=2;
+questrenown[i]=3;
+questdescription[i]="Cottage fire! children trapped! Save them!";
+questfaildescription[i]="You let the children burn- you monster!-lose 1 renown";
+questfailheart[i]=0;
+questfailrenown[i]=1;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=2;
+questsprite[i]=spr_cottage;
+
+i=10;
+questscore[i]=5;
+questturns[i]=2;
+questrenown[i]=1;
+questdescription[i]="A cat is stuck in a tree- a brave hero must rescue it";
+questfaildescription[i]="Guess that cat ain't moving anytime soon";
+questfailheart[i]=0;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=1;
+questsprite[i]=spr_cat;
+
+i=11;
+questscore[i]=3;
+questturns[i]=1;
+questrenown[i]=1;
+questdescription[i]="Mrs Potts needs help carrying her shopping- Are you enough of a hero to help her?";
+questfaildescription[i]="The shopping is heavier than you anticipated";
+questfailheart[i]=0;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=1;
+questsprite[i]=spr_potsshopping;
+
+i=12;
+questscore[i]=4;
+questturns[i]=1;
+questrenown[i]=2;
+questdescription[i]="The king has lost his royal socks- someone must find them!";
+questfaildescription[i]="Fall from the washing line- lose 1 renown";
+questfailheart[i]=0;
+questfailrenown[i]=1;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=1;
+questsprite[i]=spr_kingsocks;
+
+i=13;
+questscore[i]=4;
+questturns[i]=1;
+questrenown[i]=1;
+questdescription[i]="Wake the sleeping princess";
+questfaildescription[i]="The princess is still in a deep slumer- lose 1 renown";
+questfailheart[i]=0;
+questfailrenown[i]=1;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=1;
+questsprite[i]=spr_prinsleep;
+
+i=14;
+questscore[i]=10;
+questturns[i]=3;
+questrenown[i]=2;
+questdescription[i]="An arrogant goblin tries to mug you- whack this fool";
+questfaildescription[i]="The goblin runs off with your item- lose 1 item ";
+questfailheart[i]=0;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=1;
+questsprite[i]=spr_arrgoblin;
+
+/*
+i=15;
+questscore[i]=0;
+questturns[i]=0;
+questrenown[i]=0;
+questdescription[i]=0;
+questfaildescription[i]=0;
+questfailheart[i]=0;
+questfailrenown[i]=0;
+questfailitem[i]=0;
+questfaildie[i]=0;
+questdifficulty[i]=0;
+*/
+
